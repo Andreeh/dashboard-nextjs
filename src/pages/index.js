@@ -9,7 +9,7 @@ const Index = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <h1>Hello</h1>
-            <Link href="/about">
+            <Link href="/about" as={process.env.BACKEND_URL + '/about'}>
                 <a>About</a>
             </Link>
         </div>

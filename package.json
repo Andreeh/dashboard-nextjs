@@ -1,5 +1,5 @@
 {
-    "name": "ecp-monitor-ui-nextjs",
+    "name": "dashboard-nextjs",
     "version": "0.1.0",
     "private": true,
     "scripts": {
@@ -8,7 +8,7 @@
         "start": "next start",
         "lint": "lint",
         "export": "next build && next export",
-        "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
+        "deploy": "rm -rf node_modules/.cache && next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy Next.js to gh-pages\" && git subtree push --prefix out origin gh-pages"
     },
     "dependencies": {
         "@next/bundle-analyzer": "^9.2.2",
@@ -20,6 +20,7 @@
     },
     "devDependencies": {
         "babel-eslint": "^10.0.3",
+        "babel-plugin-transform-define": "^2.0.0",
         "eslint": "^6.8.0",
         "eslint-config-prettier": "^6.10.0",
         "eslint-plugin-prettier": "^3.1.2",

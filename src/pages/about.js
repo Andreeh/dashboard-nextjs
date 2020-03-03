@@ -4,8 +4,8 @@ export default function About() {
     return (
         <div>
             <h1>About</h1>
-            <Link href="/">
-                <a>Go home</a>
+            <Link href="/" as={process.env.BACKEND_URL + '/'}>
+                <a>Home</a>
             </Link>
         </div>
     );

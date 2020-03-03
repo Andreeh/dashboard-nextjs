@@ -6449,9 +6449,7 @@ var DOMAttributeNames = {
   httpEquiv: 'http-equiv'
 };
 
-var HeadManager =
-/*#__PURE__*/
-function () {
+var HeadManager = /*#__PURE__*/function () {
   function HeadManager() {
     var _this = this;
 
@@ -6701,9 +6699,7 @@ var ErrorComponent;
 var Component;
 var App, onPerfEntry;
 
-var Container =
-/*#__PURE__*/
-function (_react$default$Compon) {
+var Container = /*#__PURE__*/function (_react$default$Compon) {
   _inherits(Container, _react$default$Compon);
 
   function Container() {
@@ -7376,9 +7372,7 @@ function appendLink(href, rel, as) {
   });
 }
 
-var PageLoader =
-/*#__PURE__*/
-function () {
+var PageLoader = /*#__PURE__*/function () {
   function PageLoader(buildId, assetPrefix) {
     _classCallCheck(this, PageLoader);
 
@@ -8042,9 +8036,7 @@ function fetchNextData(pathname, query, isServerRender, cb) {
   });
 }
 
-var Router =
-/*#__PURE__*/
-function () {
+var Router = /*#__PURE__*/function () {
   function Router(pathname, query, as, _ref) {
     var _this = this;
 

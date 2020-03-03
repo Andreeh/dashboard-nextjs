@@ -3486,9 +3486,7 @@ exports["default"] = function () {
     }
   }
 
-  return (
-    /*#__PURE__*/
-    function (_react_1$Component) {
+  return (/*#__PURE__*/function (_react_1$Component) {
       _inherits(_class, _react_1$Component);
 
       _createClass(_class, null, [{
@@ -3587,9 +3585,7 @@ var statusCodes = {
 * `Error` component used for handling errors.
 */
 
-var Error =
-/*#__PURE__*/
-function (_react$default$Compon) {
+var Error = /*#__PURE__*/function (_react$default$Compon) {
   _inherits(Error, _react$default$Compon);
 
   function Error() {

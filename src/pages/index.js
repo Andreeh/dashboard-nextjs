@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 const Index = () => {
     return (
@@ -8,6 +9,9 @@ const Index = () => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <h1>Hello</h1>
+            <Link href="/about">
+                <a>About</a>
+            </Link>
         </div>
     );
 };

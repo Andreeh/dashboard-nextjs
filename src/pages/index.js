@@ -1,19 +1,22 @@
 import Head from 'next/head';
-import Link from 'next/link';
+import { useRouter } from 'next/router';
+import Layout from '../components/layout';
+import Overview from './monitor/overview';
 
-const Index = () => {
+const Home = () => {
+    const router = useRouter();
+    React.useEffect(() => {
+        console.log(router.pathname);
+        if (router.pathname === '/') {
+            router.push('/monitor/overview');
+        }
+    }, []);
+
     return (
-        <div>
-            <Head>
-                <title>Dashboard App</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
+        <Layout pageTitle="Index">
             <h1>Hello</h1>
-            <Link href="/about" as={process.env.BACKEND_URL + '/about'}>
-                <a>About</a>
-            </Link>
-        </div>
+        </Layout>
     );
 };
 
-export default Index;
+export default Overview;

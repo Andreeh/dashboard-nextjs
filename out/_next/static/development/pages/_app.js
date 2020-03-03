@@ -4493,9 +4493,7 @@ function fetchNextData(pathname, query, isServerRender, cb) {
   });
 }
 
-var Router =
-/*#__PURE__*/
-function () {
+var Router = /*#__PURE__*/function () {
   function Router(pathname, query, as, _ref) {
     var _this = this;
 

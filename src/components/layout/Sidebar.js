@@ -16,7 +16,7 @@ export function Sidebar() {
             boxShadow="2xl"
             zIndex="100">
             <Box position="relative" overflowY="auto">
-                <SidebarHeader>ECP Monitor</SidebarHeader>
+                <SidebarHeader>Hello</SidebarHeader>
                 <SidebarContent>
                     <Box px="4">
                         {routes.map(route => {

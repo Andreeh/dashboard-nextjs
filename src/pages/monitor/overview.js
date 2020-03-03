@@ -49,6 +49,6 @@ Overview.getInitialProps = async () => {
     // }
     // const todos = await fetch('https://jsonplaceholder.typicode.com/todos');
     return {
-        customers: ['Essity', 'Sigma IoT']
+        customers: ['Test', 'Gris']
     };
 };

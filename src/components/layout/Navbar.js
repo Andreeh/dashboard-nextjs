@@ -55,11 +55,13 @@ export function Navbar() {
                             Vlad Min
                         </MenuButton>
                         <MenuList>
-                            <MenuItem fontSize="sm">
-                                <Link href="/about">
+                            <Link
+                                href="/about"
+                                as={process.env.BACKEND_URL + '/about'}>
+                                <MenuItem fontSize="sm">
                                     <a>About</a>
-                                </Link>
-                            </MenuItem>
+                                </MenuItem>
+                            </Link>
                             <MenuDivider />
                             <MenuItem fontSize="sm">Logout</MenuItem>
                         </MenuList>

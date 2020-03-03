@@ -10581,7 +10581,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 1:
 /*!************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fandree%2FCode%2FExamples%2Fdashboard-nextjs%2Fsrc%2Fpages%2Findex.js ***!
   \************************************************************************************************************************************************/
@@ -10604,5 +10604,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
